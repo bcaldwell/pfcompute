@@ -8,5 +8,5 @@ setup(name='pf',
       author='tmthydvnprt',
       author_email='tim@tmthydvnprt.com',
       url='https://github.com/tmthydvnprt/pfcompute',
-      packages=['pf', 'pf.forecasting', 'pf.accounting', 'pf.calculator'],
+      packages=['pf'],
 )
