@@ -74,7 +74,7 @@ class ProgressBar(object):
 
     def animate(self, iterate):
         """Animate progress"""
-        print '\r', self,
+        print ('\r', self),
         sys.stdout.flush()
         self.update_iteration(iterate + 1)
         return self
